@@ -7,9 +7,9 @@ git config --list
 
 Phases:
 
-1) Workspace
-2) Staging/Index area
-3) Local repo
+Workspace
+Staging/Index area
+Local repo
 
 git clone https://github.com/polarapu/batch50.git
 ls

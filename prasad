@@ -16,13 +16,7 @@ git add file1
 git status
 git commit -m "label" file1
 git status
-git log
-git push
-git show cid
-
-touch file2
-ls
-git status
+vdfjdsfgit status
 git add file2
 git status
 git commit -m "label" file2

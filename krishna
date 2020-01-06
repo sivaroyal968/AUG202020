@@ -2,5 +2,5 @@ git log --oneline
 git config --global alias.l1 "log --oneline"
 git l1
 git config --list
-git config --global --unset alias.l
-git config --global --unset alias.s
+git config --global --unset alias.log
+git config --global --unset alias.status

@@ -59,12 +59,3 @@
    59  ls
    60  cd GIT/
    61  ls
-   62  git add file1
-   63  git status
-   64  git commit -m "MyCommit" file1 
-   65  git status
-   66  git log
-   67  git show
-   68  git show dfc72a3532e29f8290ac828fe4ccb9bcf7c0ae96
-   69  history
-   70  history>>gitcommands1.txt

@@ -1,21 +1,32 @@
 git init
-helloo
+
+git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
 
 git config --list
 
 Phases:
+
+1) Workspace
+2) Staging/Index area
+3) Local repo
+
 git clone https://github.com/polarapu/batch50.git
 ls
-jsdhjfujdgf:wq!
+cd batch50
 
-hello
 touch file1
 git status
 git add file1
 git status
 git commit -m "label" file1
 git status
+git log
+git push
+git show cid
+
+touch file2
+ls
 git status
 git add file2
 git status
@@ -79,3 +90,118 @@ git log --before=yy-mm-dd
 git log --since=yy-mm-dd --until=yy-mm-dd
 or
 git log --after="yy-mm-dd" --befor="yy-mm-dd"
+
+git log --after="yy-mm-dd 08:00" --befor="yy-mm-dd 20:00"
+
+git log --grep="msg"
+git log -- file-name
+
+
+git clone https://github.com/polarapu/batch50.git
+ls
+cd batch50
+mkdir prasad-dir
+cd prasad-dir
+touch f1 f2 f3 f4
+cd ..
+git add .
+git status
+git commit -m "label"
+git push
+git pull --rebase
+git push
+
+BRANCES
+=========\
+
+Branch ?
+
+git branch
+git branch release1
+git branch
+git checkout release1
+git branch
+
+git merge branch-name (for all commits)
+git cherry-pick cid  (only for particular commit)
+
+git push path/of/c-repo branch-name
+git push https://github.com/sivaroyal968/AUG202020.git rels2
+
+git push origin branch-name
+
+git branch -d branch-name  (loacl)
+
+git push origin -d branch-name
+
+
+git checkout -b branch-name
+
+
+stash:
+--------
+
+git stash list
+git status
+git stash save "satsh1"
+git stash show stash-name
+
+pop, apply, drop
+----------------------
+pop = cut
+-----
+git stash pop
+git stash pop stah@{x}
+
+apply = copy
+-------
+git stash apply
+git stash apply stash@{x}
+
+drop = delete
+------
+git stash drop
+git stash drop stash@{x}
+
+Alias
+-------
+git status
+git config --global alias.s "status"
+git s
+
+git stash list
+git config --global alias.sl "stash list"
+git sl
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
+
+git config --list
+
+git config --global --unset alias.l
+git config --global --unset alias.s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
